@@ -1,14 +1,14 @@
 {
   "name": "ts-references",
-  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "build": "tsc -b",
+    "build": "tsc -b -v",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "typescript": "^4.0.5"
   }
