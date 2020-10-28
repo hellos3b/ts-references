@@ -1,5 +1,5 @@
 {
   "references": [
-    {"path": "refs/main"}
+    {"path": "packages/main"}
   ]
 }
